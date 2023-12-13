@@ -1,0 +1,9 @@
+{
+  "language": "typescript",
+  "app": "yarn run --binaries-only tsx main.ts",
+  "sendCrashReports": "false",
+  "terraformProviders": [],
+  "terraformModules": [],
+  "context": {},
+  "projectId": "f12575ca-778f-4f78-90d4-e682cec2882d"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "cdktf-typescript-project-template",
+  "private": true,
+  "scripts": {
+    "get": "cdktf get",
+    "synth": "cdktf synth",
+    "diff": "cdktf diff",
+    "plan": "cdktf plan",
+    "deploy": "cdktf deploy",
+    "apply": "cdktf apply",
+    "destroy": "cdktf destroy"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@cdktf/provider-kubernetes": "^10.0.1",
+    "cdktf": "^0.19.2",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "cdktf-cli": "^0.19.2",
+    "prettier": "3.1.1",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  }
+}
